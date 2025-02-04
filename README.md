@@ -112,6 +112,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 - Visualization powered by [matplotlib](https://matplotlib.org/)
 - Time series decomposition with [statsmodels](https://www.statsmodels.org/)
 - Thanks to the community for valuable feedback and contributions.
-```
-
-This README file outlines the project's purpose, features, installation steps, usage instructions, and potential future enhancements, offering clear guidance for both users and contributors.
