@@ -37,6 +37,7 @@ def load_and_preprocess_data(file_path: str):
     print("Resampling data to hourly frequency...")
     # Resample the data to hourly intervals; this can be adjusted (e.g., to daily) if needed
     df_hourly = df.resample('H').mean()
+    df_hourly.index.freq = 'H'  # Explicitly set the frequency
     
     print("Creating additional features...")
     # Create some basic temporal features for further modeling
